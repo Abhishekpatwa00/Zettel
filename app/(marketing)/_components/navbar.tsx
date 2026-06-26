@@ -96,7 +96,7 @@ export const Footer = () => {
             <img
               src="/dark-logo.png"
               alt="Zettel"
-              className=" w-[120px] md:w-[160px]   text-grey opacity-80"
+              className=" w-[120px] md:w-[160px]   text-grey "
             />
           ) : (
             <img
