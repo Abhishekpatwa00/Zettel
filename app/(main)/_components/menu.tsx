@@ -36,17 +36,12 @@ export const Menu = ({ documentId }: MenuProps) => {
   };
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
+      <DropdownMenuTrigger>
         <Button size="sm" className="h-4 w-4" variant="ghost">
           <MoreHorizontal />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent
-        className="w-60"
-        align="end"
-        alignOffset={8}
-        forceMount
-      >
+      <DropdownMenuContent className="w-60" align="end" alignOffset={8}>
         <DropdownMenuItem onClick={onArchvie}>
           <Trash className="h-4 w-4 mr-2 " />
           Delete

@@ -61,7 +61,7 @@ export default function RootLayout({
                 enableSystem
                 disableTransitionOnChange
               >
-                <Toaster position="bottom-center " />
+                <Toaster position="bottom-center" />
 
                 <ModalProvider />
                 {children}

@@ -10,6 +10,7 @@ import { api } from "@/convex/_generated/api";
 import { useParams } from "next/navigation";
 import { useEdgeStore } from "@/lib/edgestore";
 import { Skeleton } from "./ui/skeleton";
+import { Id } from "@/convex/_generated/dataModel";
 
 interface CoverImageProps {
   url?: string;

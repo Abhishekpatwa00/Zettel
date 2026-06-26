@@ -65,13 +65,13 @@ export const Publish = ({ initialData }: PublishProps) => {
   return (
     <div>
       <Popover>
-        <PopoverTrigger asChild>
+        <PopoverTrigger>
           <Button size="sm" className="bg-[#ef8508]">
             Publish
             {initialData.isPublished && <Globe className="  w-4 h-4 ml-2" />}
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-72" align="end" alignOffset={8} forceMount>
+        <PopoverContent className="w-72" align="end" alignOffset={8}>
           {initialData.isPublished ? (
             <div className="space-y-4">
               <div className="flex items-center gap-x-2">
