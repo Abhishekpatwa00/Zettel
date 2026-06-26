@@ -94,7 +94,7 @@ export const Footer = () => {
         <div className="  md:ml-[-80px] ml-[-50px] md:mt-2  lg:mt-3 mt-12 gap-2  flex self-start items-center justify-center gap-2">
           {theme === "dark" ? (
             <img
-              src="/white-logo.png"
+              src="/dark-logo.png"
               alt="Zettel"
               className=" w-[120px] md:w-[160px]   text-grey opacity-20"
             />
